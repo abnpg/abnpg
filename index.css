@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'acumin-pro', sans-serif;
+}
+
+
+/*html{
+    cursor: url("earth.png"), auto;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection {
+    background: #222222;
+}
+
+
+p.links {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-left: 1vw;
+    letter-spacing: 0.02em;
+    top: 0px;
+    margin: 0;
+}
+
+a.info,
+a.press,
+a.research:link {
+    text-decoration: none;
+    color: black;
+}
+
+a.info,
+a.press,
+a.research:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a.info,
+a.press,
+a.research:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+
+/*SITE - HEADER*/
+
+#header {
+    position: fixed;
+    width: 100vw;
+    display: block;
+    height: auto;
+    top: 0.5vh;
+    z-index: 3;
+}
+
+p.header {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    line-height: 1.15em;
+    letter-spacing: 0.02em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    top: 0px;
+    margin: 0;
+}
+
+#research,
+#terra,
+#incog {
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 20vw;
+}
+
+#ta,
+#info {
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 40vw;
+}
+
+#categories {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#cats {
+    position: relative;
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 20vw;
+}
+
+#cats2 {
+    position: relative;
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 40vw;
+}
+
+
+/* PROJECTS */
+
+p.grid {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+/*smaller alt of grid txt*/
+p.gridalt {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    top: 0px;
+    margin: 0;
+}
+
+
+#projects {
+    position: relative;
+    height: auto;
+    width: 98vw;
+    margin: auto;
+    top: 5.5vh;
+}
+
+#projA {
+    position: relative;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+}
+
+#projB {
+    position: relative;
+    height: auto;
+    margin-top: 3vh;
+}
+
+#gallery-contain {
+    position: relative;
+    object-fit: contain;
+    /*border-radius: 10px;*/
+    /*background-color: black;*/
+    background: url(nl.jpg);
+    height: 680px;
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    /*  outline: 1px dashed black; */
+    z-index: 2;
+}
+
+#gallery-cover {
+    position: relative;
+    object-fit: cover;
+    /*border-radius: 10px;*/
+    background-color: black;
+    /* #d2d4d1; */
+    height: 680px;
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    /*  outline: 1px dashed black; */
+    z-index: 2;
+}
+
+#grid {
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 2vw;
+    width: 98vw;
+    height: auto;
+    margin-top: 1vh;
+    padding: 0;
+}
+
+#techs {
+    margin-top: 0;
+    display: block;
+    float: left;
+    top: 0px;
+    width: 18vw;
+}
+
+
+/* TOGGLES */
+.moreinfo {
+    font-family: 'acumin-pro', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.01em;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#about0,
+#about1,
+#about2,
+#about3,
+#about4,
+#about5,
+#about6,
+#about7,
+#about8,
+#about9,
+#about10,
+#about11,
+#about12,
+#about13,
+#about14 {
+    position: relative;
+    display: none;
+    height: auto;
+    width: 38vw;
+    float: right;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+
+/*INFO*/
+
+#about {
+    display: relative;
+    margin: 0;
+    margin-top: 1vh;
+    float: right;
+    padding-right: 10vw;
+    width: 70vw;
+}
+
+a.links:link {
+    text-decoration: none;
+    color: black;
+}
+
+a.links:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a.links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+#info-ta {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    top: 8vh;
+}
+
+#content-ta {
+    position: relative;
+    height: auto;
+    display: grid;
+    width: 98vw;
+    grid-auto-flow: column;
+    grid-column-gap: 2vw;
+    margin-bottom: 3vh;
+    padding: 0;
+}
+
+#about {
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 28vw;
+}
+
+p.about {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.15em;
+    letter-spacing: 0.02em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 130%;
+    top: 0px;
+    margin: 0;
+}
+
+#subcat {
+    position: relative;
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 18vw;
+}
+
+p.subcat {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    top: 0px;
+    margin: 0;
+}
+
+p.list {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.15em;
+    letter-spacing: 0.02em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 95%;
+    top: 0px;
+    margin: 0;
+}
+
+
+/*RESEARCH*/
+
+#researchcontent {
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 60vw;
+}
+
+.researchcontent{
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    top: 0px;
+    margin: 0;
+    margin-bottom: 5vh;
+}
+
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    position: fixed;
+}
