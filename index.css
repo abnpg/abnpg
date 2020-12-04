@@ -377,6 +377,30 @@ p.list {
     margin-bottom: 5vh;
 }
 
+.embed-container {
+    --video--width: 1296;
+    --video--height: 740;
+
+    margin-bottom: 3vh;
+    position: relative;
+    padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+    overflow: hidden;
+    max-width: 100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 97%;
+    height: 97%;
+}
+
 
 footer {
     width: 100%;
