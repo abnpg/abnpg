@@ -73,6 +73,7 @@ p.header {
     padding-right: 1vw;
     top: 0px;
     margin: 0;
+    cursor: default;
 }
 
 p.header2 {
@@ -85,6 +86,7 @@ p.header2 {
     padding-right: 1vw;
     top: 0px;
     margin: 0;
+
 }
 
 #research,
@@ -140,6 +142,20 @@ p.grid {
     top: 0px;
     margin: 0;
     padding: 0;
+    cursor: default;
+}
+
+p.grid-info {
+    font-family: 'acumin-pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
 }
 
 /*smaller alt of grid txt*/
@@ -153,6 +169,7 @@ p.gridalt {
     padding-right: 1vw;
     top: 0px;
     margin: 0;
+    cursor: default;
 }
 
 
@@ -220,6 +237,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 
     display: flex;
     flex-direction: column;
@@ -238,6 +256,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain12 {
@@ -249,6 +268,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain11 {
@@ -260,6 +280,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain10 {
@@ -271,6 +292,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain09 {
@@ -282,6 +304,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain08 {
@@ -293,6 +316,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain07 {
@@ -304,6 +328,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain06 {
@@ -315,6 +340,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain05 {
@@ -326,6 +352,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain04 {
@@ -337,6 +364,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain03 {
@@ -348,6 +376,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain02 {
@@ -359,6 +388,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain01 {
@@ -370,6 +400,7 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-contain00 {
@@ -381,20 +412,18 @@ img.image_view {
     padding: 0;
     width: 98vw;
     z-index: 2;
+    cursor: crosshair;
 }
 
 #gallery-cover {
     position: relative;
     object-fit: cover;
-    /*border-radius: 10px;*/
-    background-color: black;
-    /* #d2d4d1; */
     height: 680px;
     margin: 0;
     padding: 0;
     width: 98vw;
-    /*  outline: 1px dashed black; */
     z-index: 2;
+    cursor: crosshair;
 }
 
 
@@ -409,6 +438,7 @@ img.image_view {
     top: 0px;
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 #about0,
@@ -450,11 +480,13 @@ img.image_view {
 a.links:link {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 
 a.links:visited {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 
 a.links:hover {
@@ -501,6 +533,7 @@ p.about {
     width: 130%;
     top: 0px;
     margin: 0;
+    cursor: default;
 }
 
 #subcat {
@@ -521,6 +554,7 @@ p.subcat {
     padding-right: 2vw;
     top: 0px;
     margin: 0;
+    cursor: default;
 }
 
 p.list {
@@ -534,6 +568,7 @@ p.list {
     width: 95%;
     top: 0px;
     margin: 0;
+    cursor: default;
 }
 
 
@@ -556,6 +591,7 @@ p.list {
     top: 0px;
     margin: 0;
     margin-bottom: 5vh;
+    cursor: default;
 }
 
 .embed-container {
