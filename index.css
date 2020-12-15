@@ -683,6 +683,14 @@ p.about {
     width: 18vw;
 }
 
+#subcat2 {
+    position: relative;
+    margin-top: 0;
+    float: left;
+    top: 0px;
+    width: 18vw;
+}
+
 p.subcat {
     font-family: 'acumin-pro', sans-serif;
     font-weight: 400;
