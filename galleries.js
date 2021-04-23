@@ -2,6 +2,72 @@
 
 var mysrc = "00.png";
 
+/* DPT - WORKSHOP */
+function changeImage16() {
+      if (mysrc == "00.png") {
+            document.images["gallery-cover16"].src = "15-DPT/workshop/01.png";
+            mysrc = "01.png";
+     
+      } else if (mysrc == "01.png"){
+            document.images["gallery-cover16"].src = "15-DPT/workshop/02.png";
+            mysrc = "02.png";
+     
+      } else if (mysrc == "02.png"){
+            document.images["gallery-cover16"].src = "15-DPT/workshop/00.png";
+            mysrc = "00.png";
+      } 
+     }
+
+
+/* DPT */
+function changeImage15() {
+      if (mysrc == "00.png") {
+          document.images["gallery-cover15"].src = "15-DPT/01.png";
+          mysrc = "01.png";
+   
+    } else if (mysrc == "01.png"){
+          document.images["gallery-cover15"].src = "15-DPT/02.png";
+          mysrc = "02.png";
+   
+    } else if (mysrc == "02.png"){
+          document.images["gallery-cover15"].src = "15-DPT/03.png";
+          mysrc = "03.png";
+   
+    } else if (mysrc == "03.png"){
+          document.images["gallery-cover15"].src = "15-DPT/04.png";
+          mysrc = "04.png";
+   
+   } else if (mysrc == "04.png"){
+         document.images["gallery-cover15"].src = "15-DPT/05.png";
+         mysrc = "05.png";
+   
+   } else if (mysrc == "05.png"){
+         document.images["gallery-cover15"].src = "15-DPT/06.png";
+         mysrc = "06.png";
+   
+   } else if (mysrc == "06.png"){
+         document.images["gallery-cover15"].src = "15-DPT/07.png";
+         mysrc = "07.png";
+   
+   } else if (mysrc == "07.png"){
+         document.images["gallery-cover15"].src = "15-DPT/08.png";
+         mysrc = "08.png";
+
+   } else if (mysrc == "08.png"){
+      document.images["gallery-cover15"].src = "15-DPT/09.png";
+      mysrc = "09.png";
+
+} else if (mysrc == "09.png"){
+      document.images["gallery-cover15"].src = "15-DPT/10.png";
+      mysrc = "10.png";
+      
+} else if (mysrc == "10.png"){
+      document.images["gallery-cover15"].src = "15-DPT/00.png";
+      mysrc = "00.png";    
+} 
+   }
+
+
 /* FOTI */
 function changeImage14() {
    if (mysrc == "00.png") {
