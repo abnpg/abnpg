@@ -244,6 +244,25 @@ img.image_view {
 	margin: auto;
 }
 
+#gallery-cover15, #gallery-cover16 {
+    position: relative;
+    object-fit: cover;
+    height: 680px;
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    z-index: 2;
+    cursor: crosshair;
+    margin-top: 0.5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
 #gallery-contain14 {
     position: relative;
     object-fit: contain;
@@ -607,7 +626,8 @@ img.image_view {
 #about11,
 #about12,
 #about13,
-#about14 {
+#about14,
+#about15 {
     position: relative;
     display: none;
     height: auto;
@@ -853,7 +873,8 @@ footer {
     #about11,
     #about12,
     #about13,
-    #about14 {
+    #about14,
+	#about15 {
         width: 98vw;
         float: left;
         margin-top: 0;
@@ -894,7 +915,9 @@ footer {
     #gallery-contain14,
     #gallery-cover13,
     #gallery-cover09,
-    #gallery-cover04 {
+    #gallery-cover04,
+	#gallery-cover15,
+	#gallery-cover16 {
         height: 230px;
     }
 
